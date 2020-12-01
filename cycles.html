@@ -1,8 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>cycles</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/cycles-grid.css">
+  <link rel="stylesheet" href="css/cycles.css">
+<script>
+       const checkpoint = 500;
+ 
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= checkpoint) {
+    opacity = 0 - currentScroll / checkpoint;
+  } else {
+    opacity = 1;
+  }
+  document.querySelector(".front").style.opacity = opacity;
+});
+  </script>
+</head>
+<body class="body page-cycles clearfix">
+  <div class="paragraph paragraph-1">
+    <p>One of my hypotheses / ideas for increasing the probability of innovation is to go up and down the levels of super/sub-functions.&nbsp;</p>
+    <p>In other words, instead of starting with saying “Let’s make transistors for the 0s and 1s”&nbsp;</p>
+    <p>You go up a level and ask “What’s right above the 0s and 1s? 
 
-test
+What buttons (super/sub-functions) are we forming from those lower buttons (sub-functions)? logic gates (XOR, OR, AND, etc.)?”&nbsp;</p>
+    <p>Then “Is there space for innovation there? Can we get more for less there? 
 
+Is there an “any means whatsoever” for arriving at XOR, OR, AND gates?” 
+
+“Are we really restricted to just 0s and 1s or transistors or electricity or silicon?” etc.&nbsp;</p>
+    <p>As you traverse these levels, going up and up, you may (or may not) be widening your search space.&nbsp;</p>
+    <p>It is clear though that when you start with the end function, the entire tree of sub-functions can be called into question.&nbsp;</p>
+    <p>From the higher-level programs down to the chips to the transistors to the mathematical foundations.&nbsp;</p>
+    <p>You can start removing entire levels, or adding new levels.&nbsp;</p>
+    <p>Even the whole assumption of discreteness in hierarchy, or of hierarchy of levels can be called into question by asking “In what way could a hierarchy limit innovation?”&nbsp;</p>
+    <p>You can throw out the whole recipe and start somewhere entirely different.&nbsp;</p>
+    <p>Other people made many design choices for us in the construction of this tree of functions, and were set in stone. Now we’re both grateful and stuck.&nbsp;</p>
+</div>
+  <p class="text text-1">Multi-level Function Redesign
+</p>
+  <p class="text text-2">Acceleration Heuristics</p>
+  <div class="paragraph paragraph-2">
+    <p>A powerful idea for increasing the probability of innovating is to start from what Jacque Fresco called the ‘end function’ (end goal)&nbsp;</p>
+    <p>Using the terminology I’ve been using so far, this would be what the super function gets you: what you really want to accomplish, in contrast to the sub-functions and network or arrangement of those sub-functions: how you go about accomplishing it.&nbsp;</p>
+    <p>Invention is much deeper than simply building a chair. This is connected to something Fresco also discussed. He talked of how definitions can be limiting factors to innovation. When we think of a ‘chair’ we usually think of something physical with four legs, it may be wood with a cushion or plastic or any other material but there’s a general shape that springs to mind. This fixed definition can limit our exploration of all the ways in which a chair could be manifest.&nbsp;</p>
+    <p>The question of pinning down what you really want to accomplish is a whole world in and of itself because you could keep tracing back the underlying reasons until you hit very fundamental problems, in which case you should probably pursue those.&nbsp;</p>
+    <p>But to limit the reverse tree search, let’s say that the end function of a chair is to support a person comfortably. This definition will have to get more precise. What does ‘comfortably’ mean? An even pressure distribution?&nbsp;</p>
+    <p>In the end this might lead you to conclude that you’d like to make some sort of chair that allows you to float in the air, and in order to do that your experimental explorations might venture into uncharted territory that a chair designer has never even entertained.&nbsp;</p>
+    <p>Fresco had a technique for broadening definitions. He said it’s not perfect and that the future will arrive at much more precise definitions, but it’s a start:</p>
+    <p>“Any means whatsoever…” (for supporting a human being, or doing anything else, etc.)&nbsp;</p>
+    <p>This immediately expands our search space. We’re no longer restricted by past approaches and solutions to this specific problem.&nbsp;</p>
+    <p>These kinds of heuristics may either be specified or emerge from the way such a machine is structured. It would have to be able to survey very wide search spaces.&nbsp;</p>
+</div>
+  <p class="text text-3">Any means whatsoever…</p>
+  <div class="paragraph paragraph-3">
+    <p>Above is an abstract simplified map of science. Every dot is a button.</p>
+    <p>If you imagine yourself on the ground, you’ve been trained to press a button 1000 times: wash dishes. You fly off the ground, and survey new fields, you discover that dishwashers have been invented (button 532) and later some more flying, you discover that there are robots that can wash your dishes (button 964), and find their own source of energy.&nbsp;</p>
+    <p>Of the many tremendous benefits of a broad survey of all of science, you can not only expand your tool collection (increasing creativity), but also discover already existing super-functions (or master buttons) that already do all the work for you, and discover unifiers or co-occurring super-functions (concepts or tools across disciplines). <br></p>
+    <p><a href="https://en.wikipedia.org/wiki/Generativity_Theory">Generativity theory</a> in psychology is a way of predicting creative behavior. &nbsp;<br></p>
+    <p>As Alan Kay once put it:
+
+ “The more things you know, the more possibilities you have for seeing connections. So it’s really worth trying to get as many facets as possible.” 
+
+And that is a big part of generativity theory.<br></p>
+    <p>This broad overview of science, paired with a real time feedback or update of all available information would be powerful.&nbsp;</p>
+    <p>Two potential problems are:&nbsp;</p>
+    <p>1. The information is being generated faster than you can consume it (Surveying the people who conduct surveys is one possible solution to this)&nbsp;</p>
+    <p>2. The information you survey may not be relevant to your current problems, causing the learning not to stick (Perhaps some kind of AI that can pick up on relevance to your specific problem may be useful to implement here)&nbsp;</p>
+    <p>Therein lies the power of a machine without those constraints. It can handle the information being generated at such a rapid rate, and it has no need for relevancy for the storage of the information. (Not to say that a manual survey, something I plan on doing myself, is not also crucial as it may help us build such machines and have a plethora of other benefits)<br></p>
+</div>
+  <img class="image image-1" src="images/mapofscience-buttons copy 2.png">
+  <div class="paragraph paragraph-4">
+    <p>When the machine that automates automation is built, what could it do for our tree of knowledge?&nbsp;</p>
+    <p>Abstraction is a kind of automation in that when I use the word ‘thing’, I don’t have to reference every single thing that ever existed to get across the concept of a ‘thing’ so I’ve minimized the energy it takes for me to transfer an idea to you.&nbsp;</p>
+    <p>Abstraction is sort of a lever in language in that both are systems for compressing large amounts of information into small amounts of information, or emitting a small input to obtain a large output.&nbsp;</p>
+    <p>Abstraction is therefore, a kind of super function or master button in communication.&nbsp;</p>
+    <p>In mathematics, when I say “1+2=3” I can only talk about that instance, whereas if I replace those with variables like “a+b=c” a, b, and c could refer to all numbers, and therefore we can study that without having to check every single combination of numbers.&nbsp;</p>
+    <p>We can keep going and replace the “+” with a binary operator that means doing something to 2 elements (a and b) whether that be “+, -, *, /” etc.&nbsp;</p>
+    <p>In this case, the binary operator is a kind of super-function.</p>
+    <p>This machine might generate super-functions in language, compressing decades of ideas into minutes.&nbsp;</p>
+    <p>What kinds of patterns might a machine like this spot?&nbsp;</p>
+    <p>It could start developing its own concepts based on patterns that cross all disciplines and yet are invisible to any one or visible to only a few.&nbsp;</p>
+    <p>&nbsp;Then, in the same way a language learner might prioritize learning that language by looking at the most frequently used words, it may even be able to construct a list of the most frequently occurring patterns in nature and life, even coining its own terms, and sort the list by frequency.&nbsp;</p>
+    <p>“What are the most frequent words by the universe?” is a question it might be able to answer.&nbsp;</p>
+    <p>This might allow people to learn a lot in a short amount of time.&nbsp;<br></p>
+</div>
+  <p class="text text-4">Abstraction as Automation</p>
+  <div class="paragraph paragraph-5">
+    <p>This process of automating menial work, and then automating the upper level further, and so on, is a cycle in itself. It is a meta-cycle of progress.&nbsp;</p>
+    <p>As much as programmers like to think they’re more efficient than the average human who does a repetitive task (and they are), programmers are also going through the cycle of finding things to automate, and then automating them.&nbsp;</p>
+    <p>What is needed is not the programmer, but the automation. If one could create an AI that can do the job of the programmer or AI researcher, one automates the process of automation.&nbsp;</p>
+    <p>We will reach a point where humans no longer partake in the 'zooming out' or time shrinking. Even that cycle (of the evolution of all fields) will be automated.&nbsp;</p>
+    <p>Instead of just self-correcting machines, or self-replicating machines, we will have self-evolving and progress-accelerating machines.&nbsp;</p>
+    <p>Numerous times when humans have automated cycles, there has been a co-occurrence of tremendous gains in the frequency of those cycles (the speed with which a task is completed) such as a drop in time complexity. Machines can oftentimes do it better, with fewer errors, and faster.&nbsp;</p>
+    <p>When we give machines the task of automating the evolution of progress, themselves, of science, technology, and every field under the sun, imagine just how fast this process of time shrinking will accelerate.&nbsp;</p>
+    <p>We go from progress spanning millennia to progress spanning moments.&nbsp;</p>
+    <p>Inconceivable super-functions would start to emerge (the equivalent of flight) since this machine would plunge into every single discipline that exists, survey all available information, seeing all current and available sub-functions it could combine or merge and then assemble a tree for new super-functions.&nbsp;</p>
+    <p>Our exposure to new information will skyrocket because these machines will be able to reference relevant information, and translate it based on our background, developing goal-driven gradients-of-change for us on-the-fly (see: differential reinforcement and successive approximations, reusable learning objects, just-in-time teaching/learning)</p>
+</div>
+  <p class="text text-5">Automating Automation</p>
+  <div class="paragraph paragraph-6">
+    <p>With the release of <a href="https://beta.openai.com">GPT-3</a>, or any other advanced technology, a phenomenon occurs where people start thinking more creatively about possible pathways/options they could take.&nbsp;</p>
+    <p>One reason for this might be that the feedback loop gets tighter.&nbsp;</p>
+    <p>Instead of spending months building an AI system, thinking about different architectures to use, different training processes, different ways of framing the problem, finding the resources to train your AI, programming and debugging, and dealing with a plethora of unforeseen variables, finally to arrive at your end goal of finding out whether your idea works or not, you can simply think of a mapping between 2 text patterns and try it out on GPT-3 to see if ‘it gets the message’.&nbsp;</p>
+    <p>Shrinking the overarching feedback loop from months to minutes.&nbsp;</p>
+    <p>With a tighter feedback loop, behavior is more likely to ‘catch on’ through success. In other words the probability of a particular behavior occurring again increases.&nbsp;</p>
+    <p>In the case of GPT-3, this increases the probability of different kinds of trials and experimentations at a rapid pace. At every trial, one does in minutes what would’ve taken months years ago, years decades ago, decades centuries ago.&nbsp;</p>
+    <p>At every iteration of cycle automation and cycle frequency increase, feedback loops get tighter and tighter, creativity becomes abundant by the mere fact that energy expenditure has shrunk.&nbsp;</p>
+    <p><strong>Creativity becomes cheap.&nbsp;</strong></p>
+    <p> 
+
+Ideas that you would’ve otherwise dismissed or thrown away due to the tremendous number of steps (including unknown steps) you had to take, now get a chance to shine due to the mere fact that it almost costs nothing to try them.&nbsp;</p>
+    <p>More of your tries work than not, so the behavior doesn’t die off quite as fast as it would’ve had it cost so much energy for every trial.&nbsp;</p>
+    <p>The tighter the feedback loops gets, the faster you can error correct. The faster you can error correct, the faster you can learn (get to your goal by successive approximation).&nbsp;</p>
+    <p>The cheaper creativity gets, both financially and energetically, the wider the search space of super functions or solutions we can collectively traverse as a civilization.&nbsp;</p>
+    <p>When creativity becomes free (meaning access to all resources), innovation will skyrocket since all old, current, and subsequent or new super functions will be available as sub-functions for everyone to use and build upon.&nbsp;</p>
+    <p>Lack of collective access hurts our individual homeostasis because individual homeostasis is throttled by collective homeostasis.&nbsp;
+
+</p>
+    <p>Where would we be without all the people who have contributed so much to all our lives (Pasteur, Maxwell, Einstein, Newton, Euler, and the list goes on and on…)?&nbsp;</p>
+    <p>Imagine a world where none of these people had the means to experiment, learn, let alone make a living.&nbsp;</p>
+    <p>As Jacque Fresco says “We should’ve had thousands of them”&nbsp;and this is why sharing resources is essential.</p>
+    <p>The more of these supercomputers called brains being tapped, the better.
+</p>
+</div>
+  <p class="text text-6">Consequences of a shorter feedback loop</p>
+  <div class="paragraph paragraph-7">
+    <p>As you build super-functions on top of sub-functions the cycles done per unit of time increases. For the same master button press you can get an order of magnitude greater in cycles done per unit of time, than if you had gone down to all the sub-functions and pressed them sequentially since the master button presses all the sub-buttons simultaneously.&nbsp;</p>
+    <p>Human civilization seems to be performing what AI people might call a collective ‘gradient descent’ towards energy minimization (on their part) or cycle compression in all areas of life. The history of civilization sounds like a bouncing ball that never stopped bouncing.&nbsp;<br></p>
+</div>
+  <div class="paragraph paragraph-8">
+    <p>If I asked you to choose between a master button that you click only once to arrive at your goal (whatever your goal may be) and 10 years of hard work at a job you dislike to arrive at your goal, which would you choose?</p>
+    <p>Most would probably choose the button.&nbsp;</p>
+    <p>It may be that the majority of organisms, not just humans, are ‘searching’ for the nearest thing in real life to a master button, or super-function that you press once and reach your end goal/function.&nbsp;</p>
+    <p>In programming, we write little code snippets called ‘functions’, you can think of it like a shortcut name for a list of instructions to a computer. If we had a robot say, and we wanted to tell it to enter the room, we have to first give it the instructions of moving towards the door (sub-function), raising its arm (sub-function), moving it towards the door knob (sub-function), etc.&nbsp;</p>
+    <p>Finally we package all those little instructions into a master button, or super-function, called ‘Enter the room’ that way all we have to say is “enter the room” instead of all the little instructions.&nbsp;</p>
+    <p>These instructions do keep going down in level. For instance moving towards the door is made up of lower-level sub-functions, you convert from one programming language to another and finally down to 0s and 1s.&nbsp;</p>
+    <p>Now of course, we can trace or build the tree up or down.&nbsp;</p>
+    <p>‘Enter the room’ could be a sub-function of a larger super-function that means ‘deliver food at specified times everyday’ which could be a sub-function of a larger super-function ‘Create a service schedule’ and so on.&nbsp;</p>
+    <p>Imagine the history of invention, ideas, and technological progress as a tree of buttons with the sub-functions (or sub-buttons) being past ideas, and super-functions (or master buttons) are functions built from those past ideas.<br></p>
+</div>
+  <p class="text text-7">What 'all' of us might be searching for</p>
+  <div class="text text-8">
+    <p>“Bucky made a great observation about these oceangoing tankers.&nbsp;</p>
+    <p>&nbsp;He noticed that the engineers were particularly challenged by how to turn this thing.&nbsp;</p>
+    <p>They got this big rudder, it took too much energy to turn the rudder to turn the ship.&nbsp;</p>
+    <p>So they came up with a brilliant idea. ‘Let’s put a little rudder on the big rudder. 
+The little rudder will turn the big rudder, the big rudder will turn the ship.’&nbsp;</p>
+    <p>&nbsp;The little rudder is called a trim tab. Bucky made the analogy that a trim tab is an example of how the individual is connected to society and how we affect society.” - Jeff Bridges </p>
+</div>
+  <div class="paragraph paragraph-9">
+    <p>It's as though you've taken a repetitive segment of a timeline and with your thumb and index finger compressed it into a shorter range of time. Each successive shrink of time allows us to shrink a wider segment of time. In a sense, self-similarity is a salient feature of this process.&nbsp;<br></p>
+    <p>Computers we build are added to our toolkit which can then be used to build better kinds of computers and technology, to make more discoveries. In futures studies, this is the concept of Accelerating change. Positive feedback seems to occur which is discussed by Kurzweil in his “Law of Accelerating Returns”&nbsp;</p>
+    <p>As Alvin Toffler put it 
+
+“Technology feeds on itself. Technology makes more technology possible.”&nbsp;</p>
+    <p>Moravec noted the accelerating rate of change in biological systems and he explains how the machines are <a href="https://youtu.be/iaOQi2P6IVk?t=24">quickly catching up</a> at a rate of 10 million times faster, Gerald Hawkins talked about the same thing for tipping points in the progress of human civilization in Mindsteps.</p>
+</div>
+  <img class="image image-2" src="images/machineman 3 gradients small copy1.jpg">
+  <div class="paragraph paragraph-10">
+    <p>From manual combinatorial chemistry to robotics-aided drug discovery with a library of millions of compounds.&nbsp;From the iceman to the refrigerator. From hand filing to machine milling. From handmade paper made sheet-by-sheet to paper-making machines. From bicycle to motorcycle (the motorcycle liberated the feet, the self-driving car, the hands). From hand calculation to mechanical calculators to digital calculators. &nbsp;In metallurgy, the Bessemer process was replaced by open hearth furnaces, which were in turn replaced by basic oxygen furnaces and electric arc furnaces.</p>
+    <p>From punched-card programming to low-level programming to high-level programming to AI systems like GPT-3 converting English to code. From travel to mail to telegraph to fax to email to chat. From carrying water to manually pumping water to drilling and funneling water from rivers and reservoirs to dams to pipes to faucets.<br></p>
+    <p>From the year to the month to the week to the hour to the minute to the real-time. <br></p>
+    <p>1. &nbsp;Each iteration shrinks the time and energy (on the part of the human) it takes to arrive at the end function (typically through the construction of a super-function (new technology) and lower sub-functions built on past sub-functions (existing technology/discoveries/concepts/ideas)).&nbsp;</p>
+    <p>2. &nbsp;Each iteration increases the number of cycles done per unit of time (quite literally so in the technological development of the CPU).
+<br></p>
+</div>
+  <div class="paragraph paragraph-11">
+    <p>We went from oral dissemination (serial transmitting, serial receiving) to letter-by-letter writing (scriptorium) (serial transmitting, parallel receiving) to page-by-page printing (printing press) (faster serial transmitting, parallel receiving). From hand washing dish-by-dish to dish batch-by-dish batch washing.&nbsp;</p>
+    <p>  In agriculture, from manual transplanting to machine transplanting. Rice transplanting increased the area that a person could plant from 700 to 10,000 square meters per day. From the scythe (a worker harvesting 1/4 acre per day) to the grain cradle to horse pulled reapers (10 acres of wheat per day).&nbsp;</p>
+</div>
+  <img class="image image-3" src="images/scythereaper.jpg">
+  <div class="container container-1">
+    <p class="text text-9">Disclaimer: Since I'm not omnipotent, everything I say here is said with a high degree of tentativeness, and an awareness of the fact that I could be dreadfully wrong, and therefore it is all subject to change. My views are not facts but merely subjective inferences of the world, and their degree of correspondence to reality has not been checked. Read at your own risk. &nbsp;</p>
+  </div>
+  <div class="container container-2">
+    <p class="text text-10">Automating the meta-cycle of progress</p>
+    <p class="text text-11">Cycles</p>
+  </div>
+  <img class="image image-4" src="images/multiple buttons 4K wider with blocks bluer.png">
+  <div class="container container-3">
+    <img class="image" src="images/new print jpeg.jpg">
+    <p class="text text-12">Reference inspired by: Book of Shaders</p>
+  </div>
+  <div class="paragraph paragraph-12">
+    <p> 
+It can be thought of as a kind of energy minimization or steps-taken compression.&nbsp;</p>
+    <p>Zipf’s&nbsp;<a href="https://en.wikipedia.org/wiki/Principle_of_least_effort">principle of least effort</a>&nbsp;comes to mind “it postulates that animals, people, and even well-designed machines will naturally choose the path of least resistance or "effort"”, neuroscientists like Karl Friston have tried to integrate the <a href="https://www.feynmanlectures.caltech.edu/II_19.html">principle of least action</a> from physics into theories about the brain (<a href="https://www.youtube.com/watch?v=NIu_dJGyIQI&amp;ab_channel=SeriousScience">free energy principle</a>), similarly in computer science, there’s minimum description length, in talking of levers Archimedes said “Give me a place to stand and I will move the earth”, Jacque Fresco observed “behaviorally, we try to blow minimum blow and get the maximum occurrence” and Bucky Fuller often talked about ‘doing more with less’ (ephemeralization), and the ‘trim tab principle’:</p>
+</div>
+  <p class="text text-13">Humans go through a process of iteration of reduction of cycles on their part (automation) and a simultaneous increase in the frequency of those cycles.</p>
+  <div class="element"></div>
 </body>
 </html>
