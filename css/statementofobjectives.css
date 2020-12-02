@@ -1,3 +1,30 @@
+@font-face {
+  font-family: Colfax-Medium;
+  src: url(colfaxMedium.ttf);
+}
+
+@font-face {
+  font-family: Colfax-Light;
+  src: url(colfaxLight.ttf);
+}
+
+@font-face {
+  font-family: Colfax;
+  src: url(colfaxRegular.ttf);
+}
+
+@font-face {
+  font-family: Colfax-Bold;
+  src: url(colfaxBold.ttf);
+}
+
+
+
+@font-face {
+  font-family: Colfax-RegularItalic;
+  src: url(colfaxRegularItalic.ttf);
+}
+
 body {
   background-color: rgb(0, 0, 0);
   font: 400 1em/1.38 Colfax;
