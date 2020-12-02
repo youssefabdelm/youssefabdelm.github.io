@@ -18,6 +18,26 @@
   src: url(colfaxBold.ttf);
 }
 
+@font-face {
+
+  font-family: Rubik-Regular;
+  src: url(Rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Light;
+  src: url(Rubik/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: RubikB;
+  src: url(Rubik/Rubik-Semibold.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Italic;
+  src: url(Rubik/Rubik-Italic.ttf);
+}
 
 
 @font-face {
@@ -31,7 +51,7 @@
 
 body {
   background-color: rgb(0, 0, 0);
-  font: 400 1em/1.38 Colfax;
+  font: 400 1em/1.38 Colfax, Rubik-Regular, sans-serif;
   color: rgb(238, 238, 238);
 }
 
@@ -181,7 +201,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -195,7 +215,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -221,7 +241,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -235,7 +255,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -261,7 +281,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -288,7 +308,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -315,7 +335,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -345,7 +365,7 @@ body {
 .text-22 {
   top: 91px;
   z-index: 7;
-  font-family: Colfax-Light;
+  font-family: Colfax-Light, Rubik-Light, sans-serif;
   font-size: 1.438em;
   color: rgb(241, 241, 241);
 }
@@ -370,7 +390,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light;
+  font-family: Colfax-Light, Rubik-Light, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -384,7 +404,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -410,7 +430,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light;
+  font-family: Colfax-Light, Rubik-Light, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -436,7 +456,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light;
+  font-family: Colfax-Light, Rubik-Light, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -462,7 +482,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Medium;
+  font-family: Colfax-Medium, Rubik-Regular, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -476,7 +496,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light;
+  font-family: Colfax-Light, Rubik-Light, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
