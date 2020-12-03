@@ -33,7 +33,7 @@ body {
   min-width: none;
   min-height: nonepx;
   background-color: rgb(0, 0, 0);
-  font: 400 0.875em/1.38 Colfax;
+  font: 400 0.875em/1.38 Colfax, sans-serif;
   color: rgb(238, 238, 238);
   -webkit-transform: none;
   -moz-transform: none;
@@ -321,7 +321,7 @@ body {
   left: 38.7921875%;
   z-index: 8;
   min-height: nonepx;
-  font-family: Colfax-RegularItalic;
+  font-family: Colfax-RegularItalic, sans-serif;
   font-size: 1.429em;
   font-weight: normal;
   color: rgb(217, 217, 217);
@@ -332,7 +332,7 @@ body {
   left: 26.0060763888%;
   z-index: 7;
   min-height: nonepx;
-  font-family: Colfax-Light;
+  font-family: Colfax-Light, sans-serif;
   font-size: 5.071em;
   font-weight: normal;
   color: rgb(241, 241, 241);
@@ -444,7 +444,7 @@ body {
   width: 42%;
   min-height: nonepx;
   margin: 0 auto;
-  font-family: Colfax-RegularItalic;
+  font-family: Colfax-RegularItalic, sans-serif;
   font-size: 1em;
   font-weight: normal;
   color: rgb(235, 235, 235);
