@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: Colfax-Medium;
   src: url(colfaxMedium.ttf);
@@ -18,16 +19,35 @@
   src: url(colfaxBold.ttf);
 }
 
-
-
 @font-face {
   font-family: Colfax-RegularItalic;
   src: url(colfaxRegularItalic.ttf);
 }
 
+@font-face {
+
+  font-family: Rubik-Regular;
+  src: url(Rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Light;
+  src: url(Rubik/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: RubikB;
+  src: url(Rubik/Rubik-Semibold.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Italic;
+  src: url(Rubik/Rubik-Italic.ttf);
+}
+
 body {
   background-color: rgb(0, 0, 0);
-  font: 400 1em/1.38 Colfax, sans-serif;
+  font: 400 1em/1.38 Colfax, Rubik-Regular, Helvetica, sans-serif;
   color: rgb(238, 238, 238);
 }
 
@@ -140,7 +160,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -166,7 +186,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -176,7 +196,7 @@ body {
   top: 120px;
   left: 26.6736111111%;
   z-index: 3;
-  font-family: Colfax-RegularItalic, sans-serif;
+  font-family: Colfax-RegularItalic, Rubik-Italic, Helvetica, sans-serif;
   font-size: 1.25em;
   color: rgb(217, 217, 217);
 }
@@ -185,7 +205,7 @@ body {
   top: 74px;
   left: 26.3958333333%;
   z-index: 2;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 2.125em;
   color: rgb(241, 241, 241);
 }
@@ -198,7 +218,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -236,7 +256,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -262,7 +282,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -288,7 +308,7 @@ body {
   width: 47.5555555555%;
   min-height: 47px;
   margin: 0 auto;
-  font-family: Colfax-Light, sans-serif;
+  font-family: Colfax-Light, Rubik-Light, Helvetica, sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   color: rgb(238, 238, 238);
@@ -398,6 +418,10 @@ body {
 }
 
 @media(max-width: 1678px) {
+  .text-1 a:hover {
+    color: rgb(187, 187, 187);
+  }
+
   .element {
     top: 6959px;
     left: 0;
@@ -1127,6 +1151,423 @@ body {
 
   .text-9 {
     top: 1795px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 500px) {
+  .element {
+    top: 5726px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image {
+    height: auto;
+  }
+
+  .image-1 {
+    top: 5042px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-2 {
+    top: 4617px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-3 {
+    top: 4187px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-4 {
+    top: 3740px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-5 {
+    top: 164px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-6 {
+    position: relative;
+    z-index: 5;
+    margin-left: 11.47813%;
+  }
+
+  .text-1 {
+    top: 6048px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-10,
+  .text-11 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-2 {
+    top: 5455px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-3 {
+    top: 5509px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-4 {
+    top: 3522px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-5 {
+    top: 3475px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-6 {
+    top: 2706px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-7 {
+    top: 2659px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-8 {
+    top: 1950px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-9 {
+    top: 1882px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 417px) {
+  body {
+    font-size: 1em;
+  }
+
+  .element {
+    top: 6238px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image {
+    height: auto;
+  }
+
+  .image-1 {
+    top: 5554px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-2 {
+    top: 5129px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-3 {
+    top: 4699px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-4 {
+    top: 4252px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-5 {
+    top: 208px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-6 {
+    position: relative;
+    z-index: 5;
+    margin-left: 11.47707%;
+  }
+
+  .text-1 {
+    top: 6560px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-10,
+  .text-11 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-2 {
+    top: 5967px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-3 {
+    top: 6021px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-4 {
+    top: 4034px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-5 {
+    top: 3987px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-6 {
+    top: 3153px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-7 {
+    top: 3106px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-8 {
+    top: 2243px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-9 {
+    top: 2175px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 355px) {
+  .element {
+    top: 6533px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image {
+    height: auto;
+  }
+
+  .image-1 {
+    top: 5849px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-2 {
+    top: 5424px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-3 {
+    top: 4994px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-4 {
+    top: 4547px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-5,
+  .text-10,
+  .text-11 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-6 {
+    position: relative;
+    z-index: 5;
+    margin-left: 11.46567%;
+  }
+
+  .text-1 {
+    top: 6855px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-2 {
+    top: 6262px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-3 {
+    top: 6316px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-4 {
+    top: 4329px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-5 {
+    top: 4282px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-6 {
+    top: 3357px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-7 {
+    top: 3310px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-8 {
+    top: 2349px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-9 {
+    top: 2244px;
     left: 0;
     right: 0;
     margin-right: auto;
